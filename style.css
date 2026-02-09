@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: #fff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quiz-app {
+  text-align: center;
+}
+
+h1 {
+  color: #e91e63;
+}
+
+.subtitle {
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.quiz-box, .result-box {
+  background: #fff;
+  width: 360px;
+  padding: 25px;
+  border-radius: 14px;
+  border: 2px solid #f8bbd0;
+  box-shadow: 0 12px 30px rgba(233, 30, 99, 0.2);
+}
+
+#question {
+  margin-bottom: 20px;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.option {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #f48fb1;
+  background: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.option:hover {
+  background: #fce4ec;
+}
+
+.option.correct {
+  background: #c8e6c9;
+  border-color: #2e7d32;
+}
+
+.option.wrong {
+  background: #ffcdd2;
+  border-color: #c62828;
+}
+
+.footer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#next-btn {
+  background: #e91e63;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.result-box img {
+  width: 120px;
+  margin: 15px 0;
+}
+
+.result-box button {
+  background: #e91e63;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.smile-text {
+  margin: 10px 0;
+  color: #555;
+}
+
+/* CONFETTI */
+#confetti {
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
