@@ -1,4 +1,4 @@
-# Jemny's Quiz
+# Jemmy's Quiz
 
 A modern tech quiz application built with HTML, CSS, and JavaScript.
 
